@@ -18,6 +18,7 @@ public class windowExample {
     WebDriverWait wait;
 
     @BeforeMethod
+    //New change
     public void setup() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
